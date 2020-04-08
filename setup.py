@@ -4,8 +4,8 @@ with open('README.md', 'r') as fh:
 	readme = fh.read()
 
 setuptools.setup(
-	name='ctrlf',
-	version='0.1.0',
+	name='ctrlf-python',
+	version='0.1.1',
 	author='Georges Duverger',
 	author_email='georges.duverger@gmail.com',
 	description='CTRL+F Python client',
