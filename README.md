@@ -1,5 +1,5 @@
 # CTRL+F Python client
 
 ```bash
-pipenv install ctrlf
+pipenv install ctrlf-python
 ```

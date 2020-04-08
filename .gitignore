@@ -1,4 +1,4 @@
 .env
 build
-ctrlf.egg-info
+ctrlf_python.egg-info
 dist
