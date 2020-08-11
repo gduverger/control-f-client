@@ -1,13 +1,13 @@
 # Control-F Python client
 
 ```bash
-pipenv install ctrlf-python
+pipenv install control-f
 ```
 
 ## Usage
 
 ```python
->>> import ctrlf as find
+>>> import control_f as find
 >>> find.food('This morning, I ate an apple with some peanut butter.', token='…').json()
 {'matches': ['peanut butter', 'apple'], 'result': 'This morning, I ate an apple with some peanut butter.'}
 ```
