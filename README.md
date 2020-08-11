@@ -1,4 +1,4 @@
-# CTRL+F Python client
+# Control-F Python client
 
 ```bash
 pipenv install ctrlf-python
