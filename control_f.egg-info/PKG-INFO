@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: control-f
+Version: 0.1.4
+Summary: Control-F Python client
+Home-page: https://github.com/gduverger/control-f-client
+Author: Georges Duverger
+Author-email: georges.duverger@gmail.com
+License: MIT
+Description: # Control-F Python client
+        
+        ```bash
+        pipenv install control-f
+        ```
+        
+        ## Usage
+        
+        ```python
+        >>> import control_f as find
+        >>> find.food('This morning, I ate an apple with some peanut butter.').json()
+        {'matches': ['peanut butter', 'apple'], 'result': 'This morning, I ate an apple with some peanut butter.'}
+        ```
+        
+        ## Dependencies
+        
+        	requests (2.23.0)
+        
+        ## Development
+        
+        Packaging
+        
+        ```console
+        # Generating distribution archives
+        $ python setup.py sdist bdist_wheel
+        
+        # Uploading the distribution archives
+        $ twine upload --skip-existing dist/*
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Requires-Python: >=3
+Description-Content-Type: text/markdown

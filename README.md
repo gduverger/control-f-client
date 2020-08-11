@@ -8,7 +8,7 @@ pipenv install control-f
 
 ```python
 >>> import control_f as find
->>> find.food('This morning, I ate an apple with some peanut butter.', token='…').json()
+>>> find.food('This morning, I ate an apple with some peanut butter.').json()
 {'matches': ['peanut butter', 'apple'], 'result': 'This morning, I ate an apple with some peanut butter.'}
 ```
 

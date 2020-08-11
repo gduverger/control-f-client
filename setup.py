@@ -5,13 +5,13 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
 	name='control-f',
-	version='0.1.3',
+	version='0.1.4',
 	author='Georges Duverger',
 	author_email='georges.duverger@gmail.com',
 	description='Control-F Python client',
 	long_description=readme,
 	long_description_content_type='text/markdown',
-	url='https://github.com/gduverger/control-f-python',
+	url='https://github.com/gduverger/control-f-client',
 	license='MIT',
 	packages=['control_f'],
 	# install_requires=[],
