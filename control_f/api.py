@@ -2,7 +2,7 @@ import os
 import logging
 import requests
 
-API_URL = os.getenv('CONTROL_F_API_URL', 'https://control-f-production.herokuapp.com/food')
+API_URL = os.getenv('CONTROL_F_API_URL', 'https://app.ctrlf.co/api')
 API_KEY = os.getenv('CONTROL_F_API_KEY')
 
 def food(text, prefix=None, replace=None, suffix=None):
